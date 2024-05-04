@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -23,8 +25,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
@@ -38,6 +41,81 @@ main {
     flex: 1;
     max-width: 45%;
     margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.columna h2 {
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-weight: bold;
+}
+ h2{
+    color: #333;
+    font-weight: bold;
+}
+ h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.proyectos{
+   text-align: center;
+}
+.idiomas {
+    margin-bottom: 20px;
+}
+
+.barra-progreso {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.idiomas {
+    text-align: center;
+}
+.progreso-ingles {
+    width: 90%;
+    background-color: #ff00ff; 
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progreso-catalan {
+    width: 70%; 
+    background-color: #ffc107; 
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progreso-castellano {
+    width: 100%; 
+    background-color: #ff6207; 
+    height: 100%;
+    border-radius: 5px;
+}
+.language-flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
 }
 
 @media (max-width: 768px) {

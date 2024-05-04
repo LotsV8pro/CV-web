@@ -1,129 +1,132 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif; /* Fuente para todo el cuerpo del documento */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 0; /* Espaciado interno del encabezado */
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+    list-style-type: none; /* Elimina los estilos de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    text-align: center; /* Alineación del texto al centro */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Margen derecho entre elementos de lista */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+    display: flex; /* Utiliza flexbox para el diseño principal */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas adicionales */
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    padding: 20px; /* Espaciado interno del contenido principal */
 }
 
 .columna {
-    flex: 1;
-    max-width: 45%;
-    margin-bottom: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Establece el factor de flexión para ocupar espacio adicional */
+    max-width: 45%; /* Ancho máximo de la columna */
+    margin-bottom: 20px; /* Margen inferior entre columnas */
+    background-color: #fff; /* Color de fondo de la columna */
+    padding: 20px; /* Espaciado interno de la columna */
+    border-radius: 8px; /* Radio de borde de la columna */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra de la columna */
 }
 
 .columna h2 {
-    text-align: center;
+    text-align: center; /* Alineación del título de la columna al centro */
 }
-h1{
-    color: #fff;
-    font-weight: bold;
+
+h1 {
+    color: #fff; /* Color del texto del encabezado principal */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
 }
- h2{
-    color: #333;
-    font-weight: bold;
+
+h2 {
+    color: #333; /* Color del texto del título */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
 }
- h3 {
-    color: #333;
-    font-weight: bold;
+
+h3 {
+    color: #333; /* Color del texto del subtítulo */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
 }
 
 p {
-    color: #555;
-    line-height: 1.6;
+    color: #555; /* Color del texto del párrafo */
+    line-height: 1.6; /* Altura de línea del párrafo */
 }
 
-img{
-    width: 50%;
-    height: auto;
-    object-fit: cover;
+img {
+    width: 50%; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    object-fit: cover; /* Escala y recorta la imagen para ajustarse */
 }
 
-.proyectos{
-   text-align: center;
+.proyectos {
+   text-align: center; /* Alineación del contenido del proyecto al centro */
 }
+
 .idiomas {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margen inferior entre elementos de idioma */
 }
 
 .barra-progreso {
-    background-color: #ddd;
-    height: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    background-color: #ddd; /* Color de fondo de la barra de progreso */
+    height: 10px; /* Altura de la barra de progreso */
+    border-radius: 5px; /* Radio de borde de la barra de progreso */
+    margin-bottom: 10px; /* Margen inferior entre barras de progreso */
 }
-.idiomas {
-    text-align: center;
-}
+
 .progreso-ingles {
-    width: 90%;
-    background-color: #ff00ff; 
-    height: 100%;
-    border-radius: 5px;
+    width: 90%; /* Anchura de la barra de progreso para el inglés */
+    background-color: #ff00ff; /* Color de la barra de progreso para el inglés */
+    height: 100%; /* Altura de la barra de progreso */
+    border-radius: 5px; /* Radio de borde de la barra de progreso */
 }
 
 .progreso-catalan {
-    width: 70%; 
-    background-color: #ffc107; 
-    height: 100%;
-    border-radius: 5px;
+    width: 70%; /* Anchura de la barra de progreso para el catalán */
+    background-color: #ffc107; /* Color de la barra de progreso para el catalán */
+    height: 100%; /* Altura de la barra de progreso */
+    border-radius: 5px; /* Radio de borde de la barra de progreso */
 }
 
 .progreso-castellano {
-    width: 100%; 
-    background-color: #ff6207; 
-    height: 100%;
-    border-radius: 5px;
+    width: 100%; /* Anchura de la barra de progreso para el español */
+    background-color: #ff6207; /* Color de la barra de progreso para el español */
+    height: 100%; /* Altura de la barra de progreso */
+    border-radius: 5px; /* Radio de borde de la barra de progreso */
 }
+
 .language-flag {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 30px; /* Ajusta el tamaño según sea necesario */
-    height: auto;
+    position: absolute; /* Posición absoluta */
+    top: 10px; /* Posicionamiento superior */
+    right: 10px; /* Posicionamiento derecho */
+    width: 30px; /* Ancho de la bandera de idioma */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
 }
 
 @media (max-width: 768px) {
     main {
-        flex-direction: column;
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
     }
 
     .columna {
-        max-width: 100%;
+        max-width: 100%; /* Ancho máximo de la columna */
     }
 }
